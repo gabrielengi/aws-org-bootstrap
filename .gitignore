@@ -1,0 +1,12 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl # Consider committing this for consistent provider versions in teams, but ignore for now if unsure
+crash.log
+*.tfplan
+*.tfvars
+.vscode/ # If you use VS Code, ignore its config unless needed for team consistency
+
+# AWS Credentials (just in case they are accidentally in a project dir)
+.aws/
